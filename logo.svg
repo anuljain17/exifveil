@@ -1,1 +1,24 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">ExifVeil logo</title>
+  <defs>
+    <linearGradient id="bg" x1="18" y1="8" x2="110" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#242159"/>
+      <stop offset="1" stop-color="#08091b"/>
+    </linearGradient>
+    <linearGradient id="veil" x1="22" y1="88" x2="109" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b5cff"/>
+      <stop offset="1" stop-color="#4fd8f5"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <circle cx="98" cy="28" r="23" fill="#4fd8f5" opacity=".18" filter="url(#glow)"/>
+  <path d="M26 36a8 8 0 0 1 8-8h60a8 8 0 0 1 8 8v49a8 8 0 0 1-8 8H34a8 8 0 0 1-8-8V36Z" fill="#f8f8ff"/>
+  <path d="m34 82 17-19 13 13 11-10 19 16H34Z" fill="#27275b"/>
+  <circle cx="48" cy="48" r="7" fill="#7664ff"/>
+  <path d="M17 88c25-7 43-22 56-39 8-10 18-17 38-20-8 24-24 44-44 57-17 11-32 17-50 20V88Z" fill="url(#veil)" opacity=".96"/>
+  <path d="M29 103c22-8 43-21 58-39 9-10 18-17 28-21-5 18-15 33-30 46-14 12-29 20-47 25l-9-11Z" fill="#8b5cff" opacity=".72"/>
+  <path d="M73 91c15-10 27-22 36-38v31c0 17-12 30-36 37V91Z" fill="#50d8f5" opacity=".38"/>
+</svg>
