@@ -1,2 +1,3 @@
-# exifveil
-Official website, privacy policy, and support for ExifVeil.
+# PhotoHush
+
+Official website, privacy policy, and support for PhotoHush.
